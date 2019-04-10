@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="Virtual War Room" max_length="40" name="x_58872_needit_virtual_war_room" type="collection">
+        <element label="Major incident" max_length="32" name="u_major_incident" reference="incident" reference_qual="priority=1^impact=1^EQ" reference_qual_condition="priority=1^impact=1^EQ" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="x_58872_needit_m2m_problems_virtual_war_" max_length="40" name="x_58872_needit_m2m_problems_virtual_war" type="collection">
+        <element label="Problem" max_length="32" name="problem" reference="problem" type="reference"/>
+        <element label="Virtual War Room" max_length="32" name="virtual_war_room" reference="x_58872_needit_virtual_war_room" type="reference"/>
+        <index name="index">
+            <element name="virtual_war_room"/>
+        </index>
+        <index name="index2">
+            <element name="problem"/>
+        </index>
+    </element>
+</database>
