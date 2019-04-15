@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_58872_needit_virtual_war_room</from_table>
+        <m2m_from_field>virtual_war_room</m2m_from_field>
+        <m2m_from_label>Problems</m2m_from_label>
+        <m2m_table>x_58872_needit_m2m_problems_virtual_war</m2m_table>
+        <m2m_to_field>problem</m2m_to_field>
+        <m2m_to_label>Virtual War Rooms</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-21 03:15:04</sys_created_on>
+        <sys_id>d11b83f84f736300e6f8b2718110c78c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_m2m_problems_virtual_war</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_m2m_d11b83f84f736300e6f8b2718110c78c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-21 03:15:04</sys_updated_on>
+        <to_table>problem</to_table>
+    </sys_m2m>
+</record_update>
